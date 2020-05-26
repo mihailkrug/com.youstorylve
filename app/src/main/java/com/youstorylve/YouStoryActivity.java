@@ -64,9 +64,11 @@ public class YouStoryActivity extends AppCompatActivity {
         URL = URL + decodeBase64("LmNvbS9MdFhabXhwaA==");
 
 
-        Map<String, Object> eventValue = new HashMap<String, Object>();
+       /* Map<String, Object> eventValue = new HashMap<String, Object>();
         AppsFlyerLib.getInstance().trackEvent(getApplicationContext() , "af_registration" , eventValue);
         AppsFlyerLib.getInstance().trackEvent(getApplicationContext() , "af_purchase" , eventValue);
+        
+        */
 
 
 
